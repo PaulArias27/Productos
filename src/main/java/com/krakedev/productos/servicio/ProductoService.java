@@ -57,6 +57,7 @@ public class ProductoService {
 
             producto.setPrecio(
                     productoActualizado.getPrecio());
+            producto.setStock(productoActualizado.getStock());
 
             return producto;
         }
